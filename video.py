@@ -9,14 +9,14 @@ print("Welcome to the Menu Ordering System")
 
 customerAge = int(input("What is the age of the customer? "))
 
-price = 0
+price = 12
 
-if customerAge < 12:
+if customerAge <= 12:
     Price = 8
-elif customerAge >= 61:
+elif customerAge <= 61:
     price = 9
-else:
-    price + 12
+#else:
+    #price + 12
 
 print(f"The cost for this customer is ${price}.")
 
